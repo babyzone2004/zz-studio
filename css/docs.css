@@ -1,0 +1,244 @@
+/* 
+ * Author: babyzone2004
+ * Author URI: http://babyzone2004.github.io/
+ * Version: 1.0
+ * License: MIT
+-------------------------------------------------- */
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Body, links, basics */
+
+html {
+    font-size: 87.5%;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+}
+
+body {
+    font: 14px/1 "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    color: #5A5A5A;
+    background: #efefef;
+    height: 100%;
+}
+
+a {
+    color: #0088cc;
+    outline: none;
+}
+
+.page {
+    display: none;
+    min-height: 380px;
+}
+
+.page-active {
+    display: block;
+}
+
+
+/* =Basic structure
+-------------------------------------------------------------- */
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page h2 {
+    color: #323A41;
+    font-size: 36px;
+    padding: 1em 0 5px;
+}
+
+
+/* headline
+-------------------------------------------------- */
+
+.headline {
+    padding: 10px;
+    /*border-bottom: 1px solid #E0E0E0;*/
+    /*box-shadow: #FFF 0 1px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline h2 {
+    font-weight: normal;
+}
+
+.headline h3 {
+    margin-top: 12px;
+}
+
+.headline p {
+    color: #888;
+}
+
+.header,
+.nav {
+    background-color: #B90000;
+}
+
+.header {
+    border-bottom: 1px solid white;
+}
+
+.nav {
+    font-size: 14px;
+}
+
+.nav li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.nav li a {
+    display: inline-block;
+    font-size: 17px;
+    color: #FFF;
+    padding: 0 28px;
+    line-height: 47px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    -webkit-transition: background .2s linear, color .2s linear;
+}
+
+.nav .active a {
+    background: rgb(249, 0, 0);
+    color: #fff;
+}
+
+
+/* Content
+-------------------------------------------------- */
+
+.con {
+    margin: 12px 18px;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+
+.footer p {
+    color: #777;
+}
+
+
+/* Minimum width of 960 pixels. */
+
+@media screen and (min-width: 1080px) {}
+
+.cover {
+    display: block;
+    margin: 0 auto;
+}
+
+#page-index {
+    background: #efefef url(http://dev.xiaomi.com/docs/img/grid.png) repeat-x;
+}
