@@ -194,7 +194,7 @@ a {
     color: #FFF;
     padding: 15px 28px;
     line-height: 1;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
     -webkit-transition: background .2s linear, color .2s linear;
 }
 
